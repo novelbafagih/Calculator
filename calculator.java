@@ -5,10 +5,9 @@ public class calculator{
     public static void main(String[] args){
         simplecalc();
     }
-    public static void simplecalc(){
+    public static void simplecalc(){ 
        String inp= input.next().toLowerCase();
        int inpNum=0;
-//       if(input.hasNext()) inpNum = input.nextInt();
         switch (inp){
            case "exit":
                return;
